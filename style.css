@@ -507,11 +507,6 @@ th:last-child {
 .form-container {
   background: #fff;
   width: 300px;
-}
-
-.form-container {
-  background: #fff;
-  width: 300px;
   height: 400px;
   position: relative;
   text-align: center;
@@ -540,7 +535,7 @@ th:last-child {
   padding: 0 20px;
   position: absolute;
   top: 130px;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 form input {
@@ -582,25 +577,53 @@ form a {
   height: 3px;
   margin-top: 8px;
   transform: translateX(100px);
-  transition: transform .5s
-  
+  transition: transform 0.5s;
 }
 
+/* ----------------forgot password------------ */
 
+#assistance {
+  width: 100%;
+}
 
+#FIndicator {
+  width: 200px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(50px);
+  margin-bottom: 20px;
+}
+.form-container p {
+  margin-bottom: 12px;
+}
 
+.Fform-container {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  
+  /* border-radius: 5px; */
+}
 
+#forgot-password-form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  padding-top: 120px;
+}
 
-
-
-
-
-
-
-
-
-
-
+#password-image {
+  width: 100px;
+  height: auto;
+}
 
 /* --------------------media query for screen less then 600px screen size--------- */
 

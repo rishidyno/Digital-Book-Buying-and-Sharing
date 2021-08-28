@@ -56,7 +56,7 @@
                             <input type="text" placeholder="Username/Email">
                             <input type="password" placeholder="Password">
                             <button type="submit" class="btn">Login</button>
-                            <a href="">Forget password</a>
+                            <a href="forgetPassword.html">Forget password</a>
                         </form>
 
                         <form action="" id="RegForm">
@@ -139,16 +139,17 @@
         var RegForm = document.getElementById("RegForm");
         var Indicator = document.getElementById("Indicator");
 
-        function register() {
-            RegForm.style.transform = "translateX(0px)";
-            LoginForm.style.transform = "translateX(0px)";
-            Indicator.style.transform = "translateX(100px)";
-        }
         function login() {
             RegForm.style.transform = "translateX(300px)";
             LoginForm.style.transform = "translateX(300px)";
             Indicator.style.transform = "translateX(0px)";
         }
+        function register() {
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+        }
+        
     </script>
 
 </body>
