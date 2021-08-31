@@ -650,6 +650,51 @@ form a {
   position: absolute;
 }
 
+/* ----------------about-us-page----------------- */
+
+.Aform-container {
+  background: #fff;
+  width: 1000px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  border-style: dotted;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.Aform-container span {
+  font-weight: bold;
+  color: red;
+  padding: 0 5px;
+  width: 100px;
+}
+#AIndicator {
+  width: 110px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(450px);
+  margin-bottom: 20px;
+}
+.contributers h2 {
+  font-weight: normal;
+  font-family: "Courier New";
+  /* cursor: pointer; */
+}
+
+.about-page {
+  padding: 50px 0;
+  /* background: radial-gradient(#fff, #00d4ff); */
+  /* background: radial-gradient(#096079 , #00d4ff); */
+  /* background: radial-gradient(#020024,#096079 , #ffa200);  */
+  /* background: radial-gradient(#03101d , #c2939b);  */
+}
+
+
 /* --------------------media query for screen less then 600px screen size--------- */
 
 @media only screen and (max-width: 600px) {
