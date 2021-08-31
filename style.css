@@ -147,6 +147,7 @@ a {
 h4 {
   color: #555;
   font-weight: normal;
+  overflow: hidden;
 }
 
 .col-4 p {
