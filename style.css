@@ -620,6 +620,12 @@ form a {
   top: 130px;
   padding-top: 120px;
 }
+.Fform-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  width: 100px;
+}
 
 #password-image {
   width: 100px;
