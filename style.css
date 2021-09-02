@@ -683,6 +683,8 @@ form a {
 .contributers h2 {
   font-weight: normal;
   font-family: "Courier New";
+  text-align: right;
+  margin-right: 330px;
   /* cursor: pointer; */
 }
 
